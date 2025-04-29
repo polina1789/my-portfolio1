@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #e6f4ea;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #388e3c;
+            color: white;
+            padding: 25px;
+            text-align: center;
+        }
+        .contact-container {
+            max-width: 800px;
+            margin: 60px auto;
+            background-color: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 6px 14px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            color: #2e7d32;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .contact-info {
+            font-size: 18px;
+            color: #4caf50;
+            line-height: 1.8;
+        }
+        .contact-info strong {
+            color: #2e7d32;
+        }
+        .contact-info a {
+            color: #388e3c;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .social-icons {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .social-icons a {
+            margin: 0 15px;
+            font-size: 24px;
+            color: #388e3c;
+            transition: color 0.3s ease;
+        }
+        .social-icons a:hover {
+            color: #66bb6a;
+        }
+        form {
+            margin-top: 30px;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            color: #388e3c;
+        }
+        textarea, input {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #c8e6c9;
+            border-radius: 6px;
+            font-size: 16px;
+        }
+        button {
+            margin-top: 15px;
+            padding: 12px 20px;
+            background-color: #66bb6a;
+            color: white;
+            border: none;
+            font-size: 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #4caf50;
+        }
+        footer {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+            margin-top: 40px;
+        }
+        .back-btn {
+            margin-top: 20px;
+            text-align: center;
+        }
+        .back-btn a {
+            text-decoration: none;
+            padding: 12px 20px;
+            background-color: #66bb6a;
+            color: white;
+            font-size: 16px;
+            border-radius: 6px;
+            transition: background-color 0.3s ease;
+        }
+        .back-btn a:hover {
+            background-color: #4caf50;
+        }
+    </style>
+    <!-- Включення іконок Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <header>
+        <h1>Контакти</h1>
+    </header>
+
+    <div class="contact-container">
+        <h2>Як зі мною звʼязатись</h2>
+        <div class="contact-info">
+            <p><strong>Імʼя:</strong> Поліна</p>
+            <p><strong>Email:</strong> polina2021varf@gmail.com</p>
+            <p><strong>Телефон:</strong> +38 (099) 600-73-28</p>
+        </div>
+
+        <div class="social-icons">
+            <a href="https://www.instagram.com/_polina_varfolomeyeva?igsh=ZjJmMWM1aDhzM3F3" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="https://t.me/polina_varf" target="_blank"><i class="fab fa-telegram-plane"></i> Telegram</a>
+            <a href="https://www.tiktok.com/@user6223768018139" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
+        </div>
+
+        <form>
+            <label for="message">Напишіть мені повідомлення:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Ваше повідомлення..." required></textarea>
+            <button type="submit">Надіслати</button>
+        </form>
+
+    <footer>
+        © 2025 Мій персональний сайт
+    </footer>
+
+</body>
+</html>

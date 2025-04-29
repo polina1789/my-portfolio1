@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Про мене</title>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #e6f4ea; 
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #388e3c; 
+            color: white;
+            padding: 30px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        header::after {
+            content: '';
+            position: absolute;
+            bottom: -20px;
+            left: 0;
+            width: 100%;
+            height: 40px;
+            background: radial-gradient(circle, #66bb6a 20%, transparent 20%);
+            background-size: 40px 40px;
+        }
+        .nav-buttons {
+            margin-top: 15px;
+        }
+        .nav-buttons a {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 10px 20px;
+            background-color: #66bb6a;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: 500;
+            transition: background-color 0.3s ease;
+        }
+        .nav-buttons a:hover {
+            background-color: #4caf50;
+        }
+        .about {
+            padding: 50px 20px;
+            text-align: center;
+            position: relative;
+        }
+        .about::before {
+            content: '';
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            width: 60px;
+            height: 4px;
+            background-color: #66bb6a;
+        }
+        .about::after {
+            content: '';
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            width: 60px;
+            height: 4px;
+            background-color: #81c784; 
+        }
+        .about img {
+            width: 220px;
+            height: 220px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #66bb6a;
+            margin-bottom: 20px;
+        }
+        .about h2 {
+            color: #2e7d32;
+            font-size: 28px;
+        }
+        .about p {
+            color: #4caf50;
+            font-size: 18px;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+        .gallery {
+            background-color: #c8e6c9;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .gallery h2 {
+            color: #2e7d32;
+            margin-bottom: 30px;
+            font-size: 26px;
+        }
+        .gallery-images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .gallery-images img {
+            width: 220px;
+            height: 160px;
+            object-fit: cover;
+            border: 3px solid #81c784;
+            border-radius: 12px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .gallery-images img:hover {
+            transform: scale(1.05);
+            box-shadow: 0 8px 16px rgba(76, 175, 80, 0.5);
+        }
+        footer {
+            background-color: #2e7d32;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Привіт на моєму сайті!</h1>
+        <nav class="nav-buttons">
+            <a href="regestracia.html">Реєстрація</a>
+            <a href="contacts.html">Контакти</a>
+             <a href="priclad.html">Приклади </a>
+        </nav>
+    </header>
+
+    <section class="about">
+        <img src="фото я 2.jpg" width="300">
+        <h2>Я Поліна</h2>
+        <p>Люблю спорт, творчість і креатив. Прагну розвиватись у контент-мейкінгу, фотографії та SMM. Натхнення черпаю у русі, природі та мистецтві.</p>
+    </section>
+
+    <section class="gallery">
+        <div class="gallery-images">
+            <img src="фото я 7.jpg" width="400">
+            <img src="фото я 4.jpg" width="400">
+            <img src="фото я 9.jpg" width="400">
+            <img src="фото я 10.jpg" width="400">
+        </div>
+    </section>
+
+    <footer>
+        © 2025 Мій персональний сайт
+    </footer>
+
+</body>
+</html>
